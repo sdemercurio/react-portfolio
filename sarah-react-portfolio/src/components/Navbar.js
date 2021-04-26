@@ -1,4 +1,6 @@
 import React from "react";
+import '../styles/navbar.css';
+import logo from "../imgs/new_logo.png";
 import {NavLink} from 'react-router-dom';
 
 const Navbar = () => {
@@ -8,7 +10,7 @@ const Navbar = () => {
                 <ul className="navlinks">
                     <li className="logo">
                         <NavLink to="/" exact activeClassName="active">
-                        Home
+                        <img className = "logo" src={ logo } alt="Sarah's logo" />
                         </NavLink>
                     </li>
                     <li className="pages">

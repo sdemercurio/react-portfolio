@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.navbar {
+    max-width: 12%;
+    height: 100%;
+    color:black !important;
+    position: fixed;
+    border-right: solid black;
+    
+  }
+
+  .logo {
+    list-style-type: none;
+    height: 7rem;
+    width:auto;
+  }
+
+  a {
+    list-style-type: none;
+    color:black !important;
+    text-decoration: none;
+  }
+
+  .pages {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    color:black !important;
+    list-style-type: none;
+    margin-top: 20px;
+
+  }
+  
+  .navbar a:hover {
+    color:#07d8d2 !important;
+  }
+  
+  .home {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    max-width: 500px;
+  }
