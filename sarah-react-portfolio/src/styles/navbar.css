@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 .navbar {
-    max-width: 12%;
+    max-width: 15%;
     height: 100%;
     color:black !important;
     position: fixed;
@@ -13,6 +13,7 @@
     list-style-type: none;
     height: 7rem;
     width:auto;
+    margin: 1.5rem 0 2.5rem 0;
   }
 
   a {
@@ -27,6 +28,7 @@
     color:black !important;
     list-style-type: none;
     margin-top: 20px;
+    margin-right: 2rem;
 
   }
   
