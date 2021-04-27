@@ -5,6 +5,28 @@
   align-items: center;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
 }
+
+/* .title:before {
+  content: "";
+  display:block;
+  width: 15%;
+  height: .5rem;
+  background:rgb(43, 202, 226);
+  position: absolute;
+  left: 15%;
+  top: 10%;
+}
+
+.title:after {
+  content: "";
+  display:block;
+  width: 15%;
+  height: .5rem;
+  background:rgb(43, 202, 226);
+  position: absolute;
+  right: 15%;
+  top: 10%;
+} */

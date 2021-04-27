@@ -8,6 +8,10 @@ const WebProjects = ({ webProject }) => {
             {
                 webProject.map((item) => {
                     return <div className="portfolio" key={item.id}>
+                        <h5>
+                           <span>{item.title}</span> 
+                        </h5>
+                        <hr />
                         <div className="image-data">
                             <img className="images" src={item.image} alt="" />
                             <ul className="hover-items">
@@ -17,9 +21,7 @@ const WebProjects = ({ webProject }) => {
                                 </li>
                             </ul>
                         </div>
-                        <h5>
-                            {item.title}
-                        </h5>
+                        
                         <p>
                             {item.desc}
                         </p>

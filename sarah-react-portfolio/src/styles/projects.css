@@ -1,4 +1,7 @@
 .PortfolioPage {
+    max-width: 80%;
+    margin-left: 12rem;
+    
 }
 
 .web-projects {
@@ -11,8 +14,10 @@
 
 .images {
     width: 100%;
+    height: 40vh;
+    object-fit: cover;
     filter: saturate(0);
-    
+    box-shadow: 5px 5px 5px rgb(119, 119, 120);
 }
 
 img:hover {
@@ -23,12 +28,31 @@ img:hover {
     list-style: none;
 }
 
+a {
+    font-size: 2rem;
+    margin-right: 15px;
+    
+}
+
+a:hover {
+    color: rgb(43, 202, 226)!important;
+}
+
 .portfolio h5 {
     font-family: 'Quicksand', sans-serif;
-  font-size: 18px;
+  font-size: 2.25rem;
+  box-shadow: rgb(43, 202, 226);
 }
 
 .portfolio p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 1.25rem;
+}
+
+hr {
+   margin-top: -3rem;
+    height: .5rem;
+    background:rgb(43, 202, 226);
+        
+    
 }
