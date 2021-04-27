@@ -9,7 +9,7 @@ const projects = [
     {
         id: 1,
         link1: '',
-        link2: 'www.40wattcoaching.com',
+        link2: 'https://www.40wattcoaching.com/',
         image: proj1,
         techs: ['HTML5', 'css', 'Vanilla Javascript'],
         title: '40 Watt Coaching',
