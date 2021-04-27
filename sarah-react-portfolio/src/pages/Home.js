@@ -4,7 +4,7 @@ import Subhead from '../components/Subhead';
 
 const Home = () => {
     return (
-        <div>
+        <div className="home-content">
             <Title title={'Sarah L.DeMercurio'}/>
             <Subhead />
         <div className="container">

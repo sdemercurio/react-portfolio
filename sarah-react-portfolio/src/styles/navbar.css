@@ -6,6 +6,10 @@
     color:black !important;
     position: fixed;
     border-right: solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     
   }
 

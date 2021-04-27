@@ -2,6 +2,7 @@
 @import './styles/navbar.css';
 @import './styles/footer.css';
 @import './styles/title.css';
+@import './styles/projects.css';
 
 * {
   box-sizing: border-box;
@@ -10,10 +11,15 @@
  *:after {
   box-sizing: border-box;
  }
- html,
- body, #root {
-  height: 100%;
-  position: relative;
+ 
+ body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ }
+
+ .home-content {
+   height: 100%;
  }
 
 h1{

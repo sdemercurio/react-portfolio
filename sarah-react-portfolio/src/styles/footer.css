@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 .footer {
-    position: absolute;
-   bottom: 0;
-   width: 100%;
-   display:flex;
-    align-items: center;
-    border-top: 2px solid rgb(0, 0, 0);
-    height: 8%;
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  text-align: center;
   }
   
   .footer a {
@@ -20,17 +19,17 @@
   
   .createdBy {
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
-    margin-left: 35%;
+    font-size: 20px;
   }
   
   .socials {
+    
   }
   
   .github {
     display: inline-block;
-    margin: 0 2rem 0 20rem;
     font-size: 40px;
+    margin: 0 20px 0 20px;
   }
   
   .linkedin {
