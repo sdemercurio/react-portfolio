@@ -1,9 +1,10 @@
 import React from "react";
+import Title from '../components/Title';
 
 const Contact = () => {
     return (
         <div>
-            <h1>Let's work together!</h1>
+            <Title title={"Let's Work Together"}/>
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import proj1 from '../imgs/40watt.PNG';
 import proj2 from '../imgs/vax_trax.PNG';
+import { FaGithub } from 'react-icons/fa';
 
 const projects = [
     {
@@ -17,7 +18,7 @@ const projects = [
         id: 2,
         link1: 'www.40wattcoaching.com',
         link2: 'https://vax-trax.herokuapp.com/',
-        icon1: 'GoMarkGithub',
+        icon1: { FaGithub },
         image: proj2,
         techs: 'Chart.js Express.js Node.js MySql BCrypt Passport',
         title: '40 Watt Coaching',

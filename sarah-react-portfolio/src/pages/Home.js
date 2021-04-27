@@ -1,11 +1,11 @@
 import portrait from '../imgs/bw_me.jpg';
-import Header from '../components/Header';
+import Title from '../components/Title';
 import Subhead from '../components/Subhead';
 
 const Home = () => {
     return (
         <div>
-            <Header />
+            <Title title={'Sarah L.DeMercurio'}/>
             <Subhead />
         <div className="container">
             <img className= 'portrait' src={ portrait } alt="Portrait of Sarah" />

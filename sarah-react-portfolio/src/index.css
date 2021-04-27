@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import './styles/navbar.css';
+@import './styles/footer.css';
+@import './styles/title.css';
 
 * {
   box-sizing: border-box;
@@ -46,6 +49,7 @@ h1{
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: -4rem;
 }
 
 /*********************** Home Body ***********************/
