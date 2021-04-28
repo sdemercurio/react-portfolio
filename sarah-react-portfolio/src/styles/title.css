@@ -5,10 +5,10 @@
   align-items: center;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-left: 8%;
   margin-top: -2%;
+  margin-left: 10%;
 }
 
 /* .title:before {

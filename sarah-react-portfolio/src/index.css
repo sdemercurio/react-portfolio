@@ -47,19 +47,19 @@ h1{
 }
 
 /*********************** Typed Text ***********************/
-
+/*
 .typed-text {
-  font-size: 4rem;
+  font-size: 3rem;
   color: rgb(43, 202, 226);
   font-family: 'Quicksand', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: -4rem;
-  margin-left: 8%;
+  margin-top: -2rem;
+  margin-left: 20%;
 }
-
+*/
 /*********************** Home Body ***********************/
 
 .container {
@@ -67,7 +67,6 @@ max-width: 700px;
 margin:auto;
  display: block;
  position: relative;
- z-index: 1;
 }
 
 .portrait {

@@ -1,77 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-.navbar {
-    max-width: 15%;
-    height: 110vh;
-    margin-left: -10px;
-    color:black !important;
-    position: fixed;
-    background-color:rgb(43, 202, 226);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+    .navbar {
+      max-width: 15%;
+      height: 110vh;
+      margin-left: -10px;
+      color:black !important;
+      position: fixed;
+      background-color:rgb(43, 202, 226);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  
+      
+    }
+  
+    .logo {
+      list-style-type: none;
+      height: 7rem;
+      width:auto;
+      margin: 3.5rem 0 4.5rem 0;
+    }
+  
+    a {
+      list-style-type: none;
+      color:black !important;
+      text-decoration: none;
+    }
+  
+    .pages {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 2rem;
+      color:black !important;
+      list-style-type: none;
+      margin-top: 20px;
+      margin-right: 2rem;
+  
+    }
+  
+    .contact-page {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 2rem;
+      color:black !important;
+      list-style-type: none;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      margin-right: 2rem;
+  
+    }
     
-  }
-
-  .logo {
-    list-style-type: none;
-    height: 7rem;
-    width:auto;
-    margin: 3.5rem 0 4.5rem 0;
-  }
-
-  a {
-    list-style-type: none;
-    color:black !important;
-    text-decoration: none;
-  }
-
-  .pages {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 2rem;
-    color:black !important;
-    list-style-type: none;
-    margin-top: 20px;
-    margin-right: 2rem;
-
-  }
-
-  .contact-page {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 2rem;
-    color:black !important;
-    list-style-type: none;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    margin-right: 2rem;
-
-  }
+    .navbar a:hover {
+      color:white !important;
+    }
+    
+    .home {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 30px;
+      max-width: 500px;
+    }
   
-  .navbar a:hover {
-    color:white !important;
-  }
+    .resume-button {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 30px;
+      background-color: rgb(43, 202, 226);
+      border: solid black;
+      color:black;
+      border-radius: 10px;
+      margin: 40px 0 0 30px;
+      padding: .5rem;
+    }
   
-  .home {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
-    max-width: 500px;
-  }
-
-  .resume-button {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
-    background-color: rgb(43, 202, 226);
-    border: solid black;
-    color:black;
-    border-radius: 10px;
-    margin: 40px 0 0 30px;
-    padding: .5rem;
-  }
-
-  Button:hover {
-    background-color: white;
-    border: solid white;
-    color:black;
-  }
+    Button:hover {
+      background-color: white;
+      border: solid white;
+      color:black;
+    }
+  
   
