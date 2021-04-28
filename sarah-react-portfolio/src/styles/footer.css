@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 .footer {
-  margin-top: auto;
-  left: 0;
+  width: 100%;
+  margin-top: 4%;
+  left: 5%;
   right: 0;
   padding: 3px;
   text-align: center;
   border-top: solid black;
+  align-content: center;
+  align-items: center;
   }
   
   .footer a {
@@ -20,24 +23,17 @@
   .createdBy {
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+    display: inline-block;
+    margin-right: 5rem;
+    margin-left: 10%;
   }
   
   .socials {
-    
-  }
-  
-  .github {
     display: inline-block;
     font-size: 40px;
-    margin: 0 20px 0 20px;
+    margin-top: 1rem;
   }
   
-  .linkedin {
-    display: inline-block;
-    margin: 0 20px 0 20px;
-    font-size: 40px;
-  }
-  
-  .github, .linkedin a:hover {
+  .socials a:hover {
     color: rgb(43, 202, 226);
   }

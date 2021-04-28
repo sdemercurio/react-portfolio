@@ -2,7 +2,7 @@ import portrait from '../imgs/bw_me.jpg';
 import Title from '../components/Title';
 import Subhead from '../components/Subhead';
 import Footer from '../components/Footer';
-
+import Navbar from '../components/Navbar';
 const Home = () => {
     return (
         <div className="home-content">
