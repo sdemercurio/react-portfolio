@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import '../index.css';
 
 .contact-body {
     display: flex;
   flex-direction: column;
-  min-height: 78vh;
+  min-height: 68vh;
 }
 
 .shape1 {

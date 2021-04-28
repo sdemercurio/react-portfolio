@@ -13,14 +13,12 @@ const Contact = () => {
             <div className="contact-body">
                 <div className="contact-info">
                 <p>
-                    If you have an idea and would like a creative mind to help you execute it, I would love to hear about it. Plaease feel free to reach out!
+                    If you have an idea and would like a creative mind to help you execute it, I would love to hear about it. Please feel free to reach out!
                 </p>
                 <a className="email-link" href="mailto:sarah.l.demercurio@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a>
                 </div>
-                
-                <Footer />
-            
             </div>
+            <Footer />
             <div className="shape1"></div>
             
 
