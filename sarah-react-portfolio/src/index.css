@@ -43,6 +43,7 @@ h1{
   font-size: 5rem;
   font-weight: bold;
   margin-top: 50px;
+  
 }
 
 /*********************** Typed Text ***********************/
@@ -56,6 +57,7 @@ h1{
   align-items: center;
   text-align: center;
   margin-top: -4rem;
+  margin-left: 8%;
 }
 
 /*********************** Home Body ***********************/
@@ -65,25 +67,26 @@ max-width: 700px;
 margin:auto;
  display: block;
  position: relative;
+ z-index: 1;
 }
 
 .portrait {
   height: auto;
-  width: 50%;
+  width: 100%;
   margin: 8rem 0 4.375rem 0;
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-  float:left;
   position: relative;
+  left: -20%;
 }
 
 .container p {
   font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
-  width: 60%;
-  float: right;
-  right: -18%;
-  top: 18rem;
-  line-height: 2.25rem;
+  font-size: 45px;
+  width: 100%;
+  height: auto;
+  top: 20rem;
+  left: 60%;
+  line-height: 3rem;
   position: absolute;
   color:black;
 }

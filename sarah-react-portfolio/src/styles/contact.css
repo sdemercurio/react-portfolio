@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.contact-body {
+    display: flex;
+  flex-direction: column;
+  min-height: 78vh;
+}
+
+.shape1 {
+    width: 20%;
+    height: 20%;
+    position:relative;
+    background-color: cyan;
+}
+
+.contact-info {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left:32%;
+    text-align: center;
+
+}
+
+.email-link {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    border: solid rgb(43, 202, 226);
+    color:rgb(43, 202, 226);
+    border-radius: 10px;
+    margin: 40px 0 0 20px;
+    padding: .5rem;
+}

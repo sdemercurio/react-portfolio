@@ -5,7 +5,7 @@
     height: 100%;
     color:black !important;
     position: fixed;
-    border-right: solid black;
+    background-color:rgb(43, 202, 226);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -35,9 +35,20 @@
     margin-right: 2rem;
 
   }
+
+  .contact-page {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    color:black !important;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 2rem;
+
+  }
   
   .navbar a:hover {
-    color:#07d8d2 !important;
+    color:white !important;
   }
   
   .home {
@@ -45,3 +56,21 @@
     font-size: 30px;
     max-width: 500px;
   }
+
+  .resume-button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    background-color: rgb(43, 202, 226);
+    border: solid black;
+    color:black;
+    border-radius: 10px;
+    margin: 40px 0 0 20px;
+    padding: .5rem;
+  }
+
+  Button:hover {
+    background-color: white;
+    border: solid white;
+    color:black;
+  }
+  

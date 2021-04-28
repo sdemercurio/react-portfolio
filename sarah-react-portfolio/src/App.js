@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-    
+    <>
     <Router>
       <div className="App">
         <Navbar />
@@ -17,9 +17,10 @@ function App() {
         <Route path="/web" component={Web} />
         <Route path="/contact" component={Contact} />
         </div>
-        <Footer />
       </div>
     </Router>
+    <div className="bg"></div>
+    </>
   );
 }
 
