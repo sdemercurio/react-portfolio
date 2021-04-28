@@ -12,6 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        <Home />
         <div className="content">
         <Route exact path="/"  component={Home} />
         <Route path="/web" component={Web} />

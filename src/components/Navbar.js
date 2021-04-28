@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/navbar.css';
 import logo from "../imgs/new_logo.png";
+import Resume from "../imgs/new_res.pdf";
 import { NavLink } from 'react-router-dom';
 import {FaBars} from 'react-icons/fa';
 
@@ -26,7 +27,7 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <div>
-                <a className="resume-button" href="../imgs/new_res.pdf" download>Resume</a>
+                <a className="resume-button" href={Resume} download target="_blank" rel="noopener noreferrer">Resume</a>  
                 </div>
             </nav>
         </div>
