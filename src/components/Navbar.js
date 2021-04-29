@@ -3,7 +3,6 @@ import '../styles/navbar.css';
 import logo from "../imgs/new_logo.png";
 import Resume from "../imgs/new_res.pdf";
 import { NavLink } from 'react-router-dom';
-import { FaBars } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Navbar = () => {

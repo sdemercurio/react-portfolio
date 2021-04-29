@@ -6,7 +6,7 @@ import '../styles/projects.css';
 import { useState } from 'react';
 
 const Web = () => {
-    const [webProjects, setWebProjects ] = useState(Projects);
+    const [webProjects ] = useState(Projects);
 
     return (
         <div className="PortfolioPage">
