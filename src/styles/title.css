@@ -1,34 +1,8 @@
-.title {
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+.title h3{
+  
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
-  margin-top: -2%;
-  margin-left: 10%;
 }
-
-/* .title:before {
-  content: "";
-  display:block;
-  width: 15%;
-  height: .5rem;
-  background:rgb(43, 202, 226);
-  position: absolute;
-  left: 15%;
-  top: 10%;
-}
-
-.title:after {
-  content: "";
-  display:block;
-  width: 15%;
-  height: .5rem;
-  background:rgb(43, 202, 226);
-  position: absolute;
-  right: 15%;
-  top: 10%;
-} */

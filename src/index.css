@@ -4,6 +4,9 @@
 @import './styles/title.css';
 @import './styles/projects.css';
 
+
+
+
 * {
   box-sizing: border-box;
  }
@@ -63,31 +66,27 @@ h1{
 /*********************** Home Body ***********************/
 
 .container {
-max-width: 700px;
 margin:auto;
- display: block;
- position: relative;
+
+
+}
+
+.content-div {
+  width: 40%;
 }
 
 .portrait {
   height: auto;
-  width: 80%;
-  margin: 8rem 0 4.375rem 0;
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-  position: relative;
-  left: -20%;
 }
 
 .container p {
   font-family: 'Quicksand', sans-serif;
   font-size: 45px;
-  width: 80%;
   height: auto;
-  top: 20rem;
-  left: 65%;
   line-height: 3rem;
-  position: absolute;
   color:black;
+  margin-top: 60%;
 }
 
 .webdev {

@@ -1,16 +1,12 @@
 
 @media (min-width: 700px) {
     .PortfolioPage {
-        max-width: 80%;
+        max-width: 100vh;
         margin-left: 12rem;
         
     }
-
-    .projects {
-    }
     
     .web-projects {
-        width: 100%;
     }
     
     .images {
@@ -33,6 +29,15 @@
         font-size: 2rem;
         margin-right: 15px;
         
+    }
+
+    .techs {
+        font-family: 'Quicksand', sans-serif;
+      font-size: 1.25rem;
+      font-weight: bold;
+      float:right;
+      color: rgb(43, 202, 226);
+
     }
     
     a:hover {
@@ -59,7 +64,7 @@
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1200px) {
     .PortfolioPage {
         max-width: 100%;
         margin: 0 12rem 0 6rem;

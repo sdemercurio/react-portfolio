@@ -2,8 +2,6 @@ import proj1 from '../imgs/40watt.PNG';
 import proj2 from '../imgs/vax_trax.PNG';
 import proj3 from '../imgs/weather.PNG';
 import proj4 from '../imgs/nalej.PNG';
-import { GoMarkGithub } from 'react-icons/go';
-import { GoRocket } from 'react-icons/go';
 
 const projects = [
     {

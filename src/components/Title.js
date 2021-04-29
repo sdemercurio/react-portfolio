@@ -4,10 +4,13 @@ import '../styles/title.css';
 const Title = ({title}) => {
     return (
         <div className = "title">
+            <div className = "row">
+                <div className = "col-md-12">
             <h3>
                 <span>{title}</span>
             </h3>
-            <hr />
+            </div>
+            </div>
         </div>
     );
 }
