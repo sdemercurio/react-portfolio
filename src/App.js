@@ -12,7 +12,6 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Home />
         <div className="content">
         <Route exact path="/"  component={Home} />
         <Route path="/web" component={Web} />
@@ -20,7 +19,6 @@ function App() {
         </div>
       </div>
     </Router>
-    <div className="bg"></div>
     </>
   );
 }
