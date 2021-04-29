@@ -99,6 +99,15 @@
         margin-right: 15px;
         
     }
+
+    .techs {
+        font-family: 'Quicksand', sans-serif;
+      font-size: 1.25rem;
+      font-weight: bold;
+      float:right;
+      color: rgb(43, 202, 226);
+
+    }
     
     a:hover {
         color: rgb(43, 202, 226)!important;

@@ -8,7 +8,7 @@ import { GoRocket } from 'react-icons/go';
 const projects = [
     {
         id: 1,
-        link1: '',
+        link1: 'https://github.com/sdemercurio/40-watt.git',
         link2: 'https://www.40wattcoaching.com/',
         image: proj1,
         techs: ['HTML5', 'css', 'Vanilla Javascript'],
@@ -31,7 +31,7 @@ const projects = [
         link1: 'https://github.com/sdemercurio/any-weather.git',
         link2: 'https://sdemercurio.github.io/any-weather/',
         image: proj3,
-        techs: ['Open Weather API', 'JQuery'],
+        techs: ['Open Weather API' , 'JQuery'],
         title: 'Any Weather App',
         desc: 'An application utilizing Open Weather API to retrive weather data and dynamically update the DOM.',
     },
