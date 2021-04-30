@@ -1,6 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 
+  .logo {
+    height: 7rem;
+    width:auto;
+  }
+  
+  .navbar-nav {
+    font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        color:black !important;
+        margin-top: 15px;
+  
+  }
+  
+  a {
+    list-style-type: none;
+    color:black !important;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+  
+  .resume-button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    background-color: rgb(43, 202, 226);
+    border: solid black;
+    color:black;
+    border-radius: 10px;
+    margin: 40px 0 0 0px;
+    padding: 2px 4px 2px 4px;
+    height:50px;
+  }
+  
+  Button:hover {
+    background-color: white;
+    border: solid white;
+    color:black;
+  }
+  
+
+@media (min-width:990px) {
 .logo {
   height: 7rem;
   width:auto;
@@ -8,7 +48,7 @@
 
 .navbar-nav {
   font-family: 'Quicksand', sans-serif;
-      font-size: 2rem;
+      font-size: 20px;
       color:black !important;
 
 }
@@ -26,7 +66,7 @@ a {
   border: solid black;
   color:black;
   border-radius: 10px;
-  margin: 40px 0 0 30px;
+  margin: 40px 0 0 0px;
   padding: .5rem;
 }
 
@@ -34,6 +74,7 @@ Button:hover {
   background-color: white;
   border: solid white;
   color:black;
+}
 }
 
 /*
