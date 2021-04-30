@@ -11,7 +11,7 @@ const WebProjects = ({ webProject }) => {
                         <h5>
                            <span>{item.title}</span> 
                         </h5>
-                        <hr />
+                        
                         <div className="image-data">
                             <img className="images" src={item.image} alt="" />
                             <ul className="hover-items">
