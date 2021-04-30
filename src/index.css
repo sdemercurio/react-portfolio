@@ -21,6 +21,133 @@
   min-height: 90%;
  }
 
+ 
+  .home-content {
+    height: 100%;
+  }
+ 
+ h1{
+   font-family: 'Quicksand', sans-serif;
+   font-size: 30px;
+   color: black;
+ }
+ 
+ /*********************** Header ***********************/
+ 
+ .main-info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+ }
+ 
+ .main-info h2 {
+   font-family: 'Quicksand', sans-serif;
+   font-size: 5rem;
+   font-weight: bold;
+   margin-top: 50px;
+   
+ }
+ 
+ /*********************** Home Body ***********************/
+ 
+ .container {
+ margin:auto;
+ 
+ 
+ }
+ 
+ .content-div {
+   width: 40%;
+ }
+ 
+ .portrait {
+   height: auto;
+   width: 100%;
+   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+   margin-top: 40px;
+ }
+ 
+ .container p {
+   font-family: 'Quicksand', sans-serif;
+   font-size: 35px;
+   height: auto;
+   width: 100%;
+   line-height: 3rem;
+   color:black;
+   margin-top: 40px;
+ }
+ 
+ .webdev {
+   color: rgb(43, 202, 226);
+ }
+ 
+
+ @media (min-width:700px){
+  .home-content {
+    height: 100%;
+  }
+ 
+ h1{
+   font-family: 'Quicksand', sans-serif;
+   font-size: 30px;
+   color: black;
+ }
+ 
+ /*********************** Header ***********************/
+ 
+ .main-info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+ }
+ 
+ .main-info h2 {
+   font-family: 'Quicksand', sans-serif;
+   font-size: 5rem;
+   font-weight: bold;
+   margin-top: 50px;
+   
+ }
+ 
+ /*********************** Home Body ***********************/
+ 
+ .container {
+ margin:auto;
+ 
+ 
+ }
+ 
+ .content-div {
+   width: 40%;
+ }
+ 
+ .portrait {
+   height: auto;
+   width: 100%;
+   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+   margin-top: 40px;
+ }
+ 
+ .container p {
+   font-family: 'Quicksand', sans-serif;
+   font-size: 35px;
+   height: auto;
+   width: 100%;
+   line-height: 3rem;
+   color:black;
+   margin-top: 40px;
+ }
+ 
+ .webdev {
+   color: rgb(43, 202, 226);
+ }
+ }
+
+ @media (min-width:1200){
  .home-content {
    height: 100%;
  }
@@ -49,20 +176,6 @@ h1{
   
 }
 
-/*********************** Typed Text ***********************/
-/*
-.typed-text {
-  font-size: 3rem;
-  color: rgb(43, 202, 226);
-  font-family: 'Quicksand', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: -2rem;
-  margin-left: 20%;
-}
-*/
 /*********************** Home Body ***********************/
 
 .container {
@@ -92,3 +205,20 @@ margin:auto;
 .webdev {
   color: rgb(43, 202, 226);
 }
+}
+
+
+/*********************** Typed Text ***********************/
+/*
+.typed-text {
+  font-size: 3rem;
+  color: rgb(43, 202, 226);
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -2rem;
+  margin-left: 20%;
+}
+*/
