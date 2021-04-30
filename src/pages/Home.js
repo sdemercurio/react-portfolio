@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 const Home = () => {
     return (
         <div className="home-content">
-            <Title title={'Sarah L.DeMercurio'} />
+            <Title title={'Sarah L. DeMercurio'} />
             <div className="container">
                 <div className = "row">
                     <div className = "col-md-6">
