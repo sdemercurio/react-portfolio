@@ -10,7 +10,7 @@ const Home = () => {
                     <div className = "col-md-6">
                 <img className='portrait' src={portrait} alt="Portrait of Sarah" />
                 </div>
-                <div className = "col-md-6">
+                <div className = "info col-md-6">
                 <p>Sarah is a <span className="webdev">designer</span> and <span className="webdev"> web developer</span> who hails from the magical mitten.</p>
                 </div>
                 </div>

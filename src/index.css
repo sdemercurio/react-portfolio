@@ -21,7 +21,7 @@
   min-height: 90%;
  }
 
- 
+
   .home-content {
     height: 100%;
   }
@@ -69,7 +69,7 @@
    margin-top: 40px;
  }
  
- .container p {
+ .info p {
    font-family: 'Quicksand', sans-serif;
    font-size: 35px;
    height: auto;
@@ -83,8 +83,9 @@
    color: rgb(43, 202, 226);
  }
  
+ 
 
- @media (min-width:700px){
+ @media (min-width:990px){
   .home-content {
     height: 100%;
   }
@@ -132,14 +133,14 @@
    margin-top: 40px;
  }
  
- .container p {
+ .info p {
    font-family: 'Quicksand', sans-serif;
    font-size: 35px;
    height: auto;
    width: 100%;
    line-height: 3rem;
    color:black;
-   margin-top: 40px;
+   margin-top: 70%;
  }
  
  .webdev {
@@ -147,7 +148,7 @@
  }
  }
 
- @media (min-width:1200){
+ @media (min-width:1200px){
  .home-content {
    height: 100%;
  }
@@ -193,13 +194,13 @@ margin:auto;
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
 }
 
-.container p {
+.info p {
   font-family: 'Quicksand', sans-serif;
   font-size: 45px;
   height: auto;
   line-height: 3rem;
   color:black;
-  margin-top: 60%;
+  margin-top: 70%;
 }
 
 .webdev {

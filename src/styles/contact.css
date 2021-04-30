@@ -91,13 +91,14 @@
             align-content: center;
             display: flex;
             height: 500px;
+            margin-top: 20%;
         }
         
         .say-hi {
             align-content: center;
             align-items: center;
             display: flex;
-            width: 100%;
+            
             
         }
     
@@ -111,6 +112,7 @@
             font-size: 20px !important;
             margin-top: -50% !important;
             margin-bottom: 50% !important;
+            width: 100%;
         }
 
     }
