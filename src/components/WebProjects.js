@@ -17,7 +17,7 @@ const WebProjects = ({ webProject }) => {
                             <ul className="hover-items">
                                 <li>
                                     <a className="git-icon" href={item.link1} target="blank"><GoMarkGithub /></a>
-                                    <a className="deploy-icon" href={item.link2} target="blank"><GoRocket /></a>
+                                    <a className="depl-icon" href={item.link2} target="blank"><GoRocket /></a>
                                     <div className="techs">{item.techs.join("  |  ")}</div>
                                 </li>
                             </ul>
