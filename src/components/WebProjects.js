@@ -9,29 +9,30 @@ const WebProjects = ({ webProject }) => {
                 webProject.map((item) => {
                     return <div className="portfolio" key={item.id}>
                         <h5>
-                           <span>{item.title}</span> 
+                            <span>{item.title}</span>
                         </h5>
-                        
+
                         <div className="image-data">
                             <img className="images" src={item.image} alt="" />
                             <ul className="hover-items">
                                 <li>
-                                    <a href={item.link1} target="blank"><GoMarkGithub /></a>
-                                    <a href={item.link2}target="blank"><GoRocket /></a>
-                                    <div className = "techs">{item.techs.join("  |  ")}</div>
+                                    <a className="git-icon" href={item.link1} target="blank"><GoMarkGithub /></a>
+                                    <a className="deploy-icon" href={item.link2} target="blank"><GoRocket /></a>
+                                    <div className="techs">{item.techs.join("  |  ")}</div>
                                 </li>
                             </ul>
-                            
+
                         </div>
-                        
-                        <p>
-                            {item.desc}
-                        </p>
-                    </div>
+                        <div className="desc">
+                            <p>
+                                {item.desc}
+                            </p>
+                            </div>
+                        </div>
                 })
             }
-        </div>
+                    </div>
     );
 }
 
-export default WebProjects;
+            export default WebProjects;

@@ -167,28 +167,36 @@
     
     img:hover {
         filter: saturate(90%);
+        font-size: 1.5rem !important;
+        margin-right: 15px;
     }
     
     .hover-items {
         list-style: none;
     }
     
-    a {
-        font-size: 2rem;
-        margin-right: 15px;
+    .git-icon {
+        font-size: 1.25rem !important;
+        margin-left: -2rem;
+        
+    }
+
+    .deploy-icon {
+        font-size: 1.25rem !important;
+        margin-right: 1rem;
         
     }
 
     .techs {
         font-family: 'Quicksand', sans-serif;
-      font-size: 16px;
+      font-size: 12px;
       font-weight: bold;
       float:right;
       color: rgb(43, 202, 226);
 margin-top: 15px;
     }
     
-    a:hover {
+    .hover-items:hover {
         color: rgb(43, 202, 226)!important;
     }
     
@@ -209,6 +217,10 @@ margin-top: 15px;
         background:rgb(43, 202, 226);
             
         
+    }
+    
+    .desc {
+        margin-top: 2rem;
     }
     
 }
