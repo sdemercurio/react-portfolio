@@ -31,25 +31,7 @@
    font-size: 30px;
    color: black;
  }
- 
- /*********************** Header ***********************/
- 
- .main-info {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
- }
- 
- .main-info h2 {
-   font-family: 'Quicksand', sans-serif;
-   font-size: 5rem;
-   font-weight: bold;
-   margin-top: 50px;
-   
- }
- 
+
  /*********************** Home Body ***********************/
  
  .container {
@@ -96,29 +78,12 @@
    color: black;
  }
  
- /*********************** Header ***********************/
- 
- .main-info {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
- }
- 
- .main-info h2 {
-   font-family: 'Quicksand', sans-serif;
-   font-size: 5rem;
-   font-weight: bold;
-   margin-top: 50px;
-   
- }
  
  /*********************** Home Body ***********************/
  
  .container {
  margin:auto;
- 
+ position: relative;
  
  }
  

@@ -6,14 +6,9 @@ import { FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
     return (
         <div className="footer">
-            <div className="createdBy">
-                <p>&#169; 2021 Sarah L. DeMercurio</p>
-            </div>
-            <div className="socials">
-                <a href="https://github.com/sdemercurio" target="blank"><FaGithub /></a>
-        
-                <a href="https://www.linkedin.com/in/sarah-demercurio-a8507517/" target="blank"><FaLinkedin /></a>
-            </div>
+             <a className="socials" href="https://github.com/sdemercurio" target="blank"><FaGithub /></a>
+             <a className="socials" href="https://www.linkedin.com/in/sarah-demercurio-a8507517/" target="blank"><FaLinkedin /></a>
+             <p>&#169; 2021 Sarah L. DeMercurio</p>
         </div>
         
     );

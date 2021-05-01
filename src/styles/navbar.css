@@ -2,8 +2,9 @@
 
 
   .logo {
-    height: 7rem;
+    height: 6rem;
     width:auto;
+    padding-left: 10px;
   }
   
   .navbar-nav {
