@@ -2,16 +2,18 @@
 
 
 .footer {
-  width: 100%;
-  margin-top: 8%;
-  left: 5%;
+  bottom: 0;
+  left: 0;
   right: 0;
+  position: absolute;
+  width: 100%;
   padding: 3px;
   text-align: center;
   border-top: solid black;
   align-content: center;
   align-items: center;
   background-color: rgb(43, 202, 226);
+  height: 110px;
   }
   
   .footer a {
@@ -33,7 +35,7 @@
   .socials {
     display: inline-block;
     font-size: 40px;
-    margin-top: 1rem;
+    
   }
   
   .socials:hover {

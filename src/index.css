@@ -18,12 +18,15 @@
  body {
   display: flex;
   flex-direction: column;
-  min-height: 90%;
+  height: 100%;  position: relative;
+ padding-bottom: 100px;
+ min-height: 100vh;
  }
 
 
   .home-content {
-    height: 100%;
+    position: relative;
+    
   }
  
  h1{
@@ -34,9 +37,8 @@
 
  /*********************** Home Body ***********************/
  
- .container {
- margin:auto;
- 
+ .home-container {
+ margin:5%;
  
  }
  
@@ -69,7 +71,7 @@
 
  @media (min-width:990px){
   .home-content {
-    height: 100%;
+    padding: 120px;
   }
  
  h1{
@@ -81,7 +83,7 @@
  
  /*********************** Home Body ***********************/
  
- .container {
+ .home-container {
  margin:auto;
  position: relative;
  
@@ -105,7 +107,7 @@
    width: 100%;
    line-height: 3rem;
    color:black;
-   margin-top: 70%;
+   
  }
  
  .webdev {
@@ -113,65 +115,6 @@
  }
  }
 
- @media (min-width:1200px){
- .home-content {
-   height: 100%;
- }
-
-h1{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
-  color: black;
-}
-
-/*********************** Header ***********************/
-
-.main-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.main-info h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 5rem;
-  font-weight: bold;
-  margin-top: 50px;
-  
-}
-
-/*********************** Home Body ***********************/
-
-.container {
-margin:auto;
-
-
-}
-
-.content-div {
-  width: 40%;
-}
-
-.portrait {
-  height: auto;
-  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-}
-
-.info p {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 45px;
-  height: auto;
-  line-height: 3rem;
-  color:black;
-  margin-top: 70%;
-}
-
-.webdev {
-  color: rgb(43, 202, 226);
-}
-}
 
 
 /*********************** Typed Text ***********************/

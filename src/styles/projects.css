@@ -1,227 +1,209 @@
 
 
-    .PortfolioPage {
-        max-width: 100vh;
-        padding: 0 20px 0 20px;
-        
-    }
-    
-    .web-projects {
-    }
-    
-    .images {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        filter: saturate(0);
-        box-shadow: 5px 5px 5px rgb(119, 119, 120);
-        border: solid rgb(43, 202, 226);
-        border-width: 2px;
-    }
-    
-    img:hover {
-        filter: saturate(90%);
-    }
-    
-    .hover-items {
-        list-style: none;
-    }
-    
-    a {
-        font-size: 2rem;
-        margin-right: 15px;
-        
-    }
+.PortfolioPage {
+  position: relative;
+}
 
-    .techs {
-        font-family: 'Quicksand', sans-serif;
-      font-size: 15px;
-      font-weight: bold;
-      float:right;
-      color: rgb(43, 202, 226);
-      margin-top: 15px;
+.images {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: saturate(0);
+  box-shadow: 5px 5px 5px rgb(119, 119, 120);
+  border: solid rgb(43, 202, 226);
+  border-width: 2px;
+}
 
-    }
-    
-    a:hover {
-        color: rgb(43, 202, 226)!important;
-    }
-    
-    .portfolio h5 {
-        font-family: 'Quicksand', sans-serif;
-      font-size: 2.25rem;
-      box-shadow: rgb(43, 202, 226);
-      margin-top: 5rem;
-    }
-    
-    .portfolio p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.25rem;
-    }
-    
-    hr {
-       margin-top: -3rem;
-        height: .5rem;
-        background:rgb(43, 202, 226);
-            
-        
-    }
+img:hover {
+  filter: saturate(90%);
+}
+
+.hover-items {
+  list-style: none;
+}
+
+a {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+
+.techs {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  float: right;
+  color: rgb(43, 202, 226);
+  margin-top: 15px;
+}
+
+a:hover {
+  color: rgb(43, 202, 226) !important;
+}
+
+.portfolio h5 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.25rem;
+  box-shadow: rgb(43, 202, 226);
+  margin-top: 5rem;
+}
+
+.portfolio p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+}
+
+hr {
+  margin-top: -3rem;
+  height: 0.5rem;
+  background: rgb(43, 202, 226);
+}
 
 @media (min-width: 700px) {
-    .PortfolioPage {
-        max-width: 100vh;
-        padding: 0 20px 0 20px;
-        
-    }
-    
-    .web-projects {
-    }
-    
-    .images {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        filter: saturate(0);
-        box-shadow: 5px 5px 5px rgb(119, 119, 120);
-        border: solid rgb(43, 202, 226);
-        border-width: 2px;
-    }
-    
-    img:hover {
-        filter: saturate(90%);
-    }
-    
-    .hover-items {
-        list-style: none;
-    }
-    
-    a {
-        font-size: 2rem;
-        margin-right: 15px;
-        
-    }
+  .PortfolioPage {
+    position: relative;
+  }
 
-    .techs {
-        font-family: 'Quicksand', sans-serif;
-      font-size: 20px;
-      font-weight: bold;
-      float:right;
-      color: rgb(43, 202, 226);
-      margin-top: 15px;
+  .projects-container {
+  }
 
-    }
-    
-    a:hover {
-        color: rgb(43, 202, 226)!important;
-    }
-    
-    .portfolio h5 {
-        font-family: 'Quicksand', sans-serif;
-      font-size: 2.25rem;
-      box-shadow: rgb(43, 202, 226);
-      margin-top: 5rem;
-    }
-    
-    .portfolio p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.25rem;
-    }
-    
-    hr {
-       margin-top: -3rem;
-        height: .5rem;
-        background:rgb(43, 202, 226);
-            
-        
-    }
+  .images {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: saturate(0);
+    box-shadow: 5px 5px 5px rgb(119, 119, 120);
+    border: solid rgb(43, 202, 226);
+    border-width: 2px;
+  }
+
+  img:hover {
+    filter: saturate(90%);
+  }
+
+  .hover-items {
+    list-style: none;
+  }
+
+  a {
+    font-size: 2rem;
+    margin-right: 15px;
+  }
+
+  .techs {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    color: rgb(43, 202, 226);
+    margin-top: 15px;
+  }
+
+  a:hover {
+    color: rgb(43, 202, 226) !important;
+  }
+
+  .portfolio h5 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2.25rem;
+    box-shadow: rgb(43, 202, 226);
+    margin-top: 5rem;
+  }
+
+  .portfolio p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+  }
+
+  hr {
+    margin-top: -3rem;
+    height: 0.5rem;
+    background: rgb(43, 202, 226);
+  }
 }
 
 @media (min-width: 1200px) {
-    .PortfolioPage {
-        max-width: 100%;
-        margin: 0 12rem 0 6rem;
-        
-    }
-    
-    .projects {
-        margin-left:15%;
-    }
-    
-    .web-projects {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 3rem;
-        left: 20%;
-    }
-    
-    .images {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        filter: saturate(0);
-        box-shadow: 5px 5px 5px rgb(119, 119, 120);
-        border: solid rgb(43, 202, 226);
-        border-width: 2px;
-    }
-    
-    img:hover {
-        filter: saturate(90%);
-        font-size: 1.5rem !important;
-        margin-right: 15px;
-    }
-    
-    .hover-items {
-        list-style: none;
-    }
-    
-    .git-icon {
-        font-size: 1.25rem !important;
-        margin-left: -2rem;
-        
-    }
+  .PortfolioPage {
+    max-width: 100%;
 
-    .deploy-icon {
-        font-size: 1.25rem !important;
-        margin-right: 1rem;
-        
-    }
+    position: relative;
+  }
 
-    .techs {
-        font-family: 'Quicksand', sans-serif;
-      font-size: 12px;
-      font-weight: bold;
-      float:right;
-      color: rgb(43, 202, 226);
-margin-top: 15px;
-    }
-    
-    .hover-items:hover {
-        color: rgb(43, 202, 226)!important;
-    }
-    
-    .portfolio h5 {
-        font-family: 'Quicksand', sans-serif;
-      font-size: 2.25rem;
-      box-shadow: rgb(43, 202, 226);
-    }
-    
-    .portfolio p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.25rem;
-    }
-    
-    hr {
-       margin-top: -3rem;
-        height: .5rem;
-        background:rgb(43, 202, 226);
-            
-        
-    }
-    
-    .desc {
-        margin-top: 2rem;
-    }
-    
+  .projects-container {
+    margin: 5% 10%;
+    position: relative;
+    height: 120%;
+  }
+
+  .web-projects {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    left: 20%;
+  }
+
+  .images {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: saturate(0);
+    box-shadow: 5px 5px 5px rgb(119, 119, 120);
+    border: solid rgb(43, 202, 226);
+    border-width: 2px;
+  }
+
+  img:hover {
+    filter: saturate(90%);
+    font-size: 1.5rem !important;
+    margin-right: 15px;
+  }
+
+  .hover-items {
+    list-style: none;
+  }
+
+  .git-icon {
+    font-size: 1.25rem !important;
+    margin-left: -2rem;
+  }
+
+  .deploy-icon {
+    font-size: 1.25rem !important;
+    margin-right: 1rem;
+  }
+
+  .techs {
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    color: rgb(43, 202, 226);
+    margin-top: 15px;
+  }
+
+  .hover-items:hover {
+    color: rgb(43, 202, 226) !important;
+  }
+
+  .portfolio h5 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2.25rem;
+    box-shadow: rgb(43, 202, 226);
+    margin-top: 0;
+  }
+
+  .portfolio p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+  }
+
+  hr {
+    margin-top: -3rem;
+    height: 0.5rem;
+    background: rgb(43, 202, 226);
+  }
+
+  .desc {
+    margin-top: 2rem;
+  }
 }
-
