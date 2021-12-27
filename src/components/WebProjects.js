@@ -16,8 +16,8 @@ const WebProjects = ({ webProject }) => {
                             <img className="images" src={item.image} alt="" />
                             <ul className="hover-items">
                                 <li>
-                                    <a className="git-icon" href={item.link1} target="blank"><GoMarkGithub /></a>
-                                    <a className="depl-icon" href={item.link2} target="blank"><GoRocket /></a>
+                                    <a  href={item.link1} target="blank"><GoMarkGithub /></a>
+                                    <a  href={item.link2} target="blank"><GoRocket /></a>
                                     <div className="techs">{item.techs.join("  |  ")}</div>
                                 </li>
                             </ul>
