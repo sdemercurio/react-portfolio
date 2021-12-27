@@ -48,17 +48,19 @@
  
  .portrait {
    height: auto;
-   width: 100%;
+   width: 50%;
    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
    margin-top: 40px;
+   position: relative;
+   left: 20%
  }
  
  .info p {
    font-family: 'Quicksand', sans-serif;
-   font-size: 35px;
+   font-size: 20px;
    height: auto;
    width: 100%;
-   line-height: 3rem;
+   line-height: 22px;
    color:black;
    margin-top: 40px;
  }
@@ -95,17 +97,17 @@
  
  .portrait {
    height: auto;
-   width: 100%;
+   width: 75%;
    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
    margin-top: 40px;
  }
  
  .info p {
    font-family: 'Quicksand', sans-serif;
-   font-size: 35px;
+   font-size: 20px;
    height: auto;
    width: 100%;
-   line-height: 3rem;
+   line-height: 22px;
    color:black;
    
  }
