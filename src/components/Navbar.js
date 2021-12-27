@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/navbar.css';
 import logo from "../imgs/new_logo.png";
-import Resume from "../imgs/new_res.pdf";
+import Resume from "../imgs/Sarah_DeMercurio_WebDev_Resume.pdf";
 import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
