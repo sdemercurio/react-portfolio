@@ -16,7 +16,7 @@ const Contact = () => {
                     <Col md={2}></Col>
                     <Col md={8} className="contact-info">
                             <p>
-                                If you have an idea and would like a creative mind to help you execute it, I would love to hear about it. Please feel free to reach out!
+                                If you are looking for someone to carry out a web project or someone to join your team, please reach out!
                             </p>
                         </Col>
                         <Col md={2}></Col>
