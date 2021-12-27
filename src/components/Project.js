@@ -19,7 +19,7 @@ const projects = [
         link1: 'https://github.com/jacob-af/vax-trax.git',
         link2: 'https://vax-trax.herokuapp.com/',
         image: proj2,
-        techs: ['Chart.js', 'Express.js', 'Node.js', 'MySql', 'BCrypt', 'Passport'],
+        techs: ['Chart.js', 'Express.js', 'Node.js', 'MySql'],
         title: 'Vax Trax',
         desc: 'An information based web application. For this app, I handled the front-end. VaxTrax provides up to date information about the novel Covid-19 virus and allows individuals to track and inform others about their experience with recieving the vaccine.',
     },
