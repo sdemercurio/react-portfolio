@@ -1,7 +1,7 @@
 import proj1 from '../imgs/40watt.PNG';
 import proj2 from '../imgs/vax_trax.PNG';
-import proj3 from '../imgs/weather.PNG';
-import proj4 from '../imgs/nalej.PNG';
+import proj3 from '../imgs/deep_thoughts.png';
+import proj4 from '../imgs/weather.PNG';
 
 const projects = [
     {
@@ -26,22 +26,22 @@ const projects = [
 
     {
         id: 3,
-        link1: 'https://github.com/sdemercurio/any-weather.git',
-        link2: 'https://sdemercurio.github.io/any-weather/',
+        link1: 'https://github.com/sdemercurio/markdown-blog',
+        link2: 'https://node-mongo-express-app.herokuapp.com/',
         image: proj3,
-        techs: ['Open Weather API' , 'JQuery'],
-        title: 'Any Weather App',
-        desc: 'An application utilizing Open Weather API to retrive weather data and dynamically update the DOM.',
+        techs: ['Express.js' , 'Node.js', 'MongoDB', "EJS"],
+        title: 'Blog App',
+        desc: 'A basic blog built using Node.js Express.js, MongoDB and EJS. Designed to be responsive with UI/UX best practices, and current design trends in mind.',
     },
 
     {
         id: 4,
-        link1: 'https://github.com/sdemercurio/nalej.git',
-        link2: 'http://nalej-app.com/',
+        link1: 'https://github.com/sdemercurio/any-weather.git',
+        link2: 'https://sdemercurio.github.io/any-weather/',
         image: proj4,
-        techs: ['Numbers API', 'Giphy API'],
-        title: 'Nalej',
-        desc: 'Nalej is a learning app intended to satisfy those with an undeniable thirst for (useless) knowledge.'
+        techs: ['Open Weather API' , 'JQuery'],
+        title: 'Any Weather App',
+        desc: 'An application utilizing Open Weather API to retrive weather data and dynamically update the DOM.',
     }
 ]
 

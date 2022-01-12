@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
 import { GoMarkGithub } from 'react-icons/go';
 import { GoRocket } from 'react-icons/go';
 
