@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/navbar.css';
-import logo from "../imgs/new_logo.png";
+import logo from "../imgs/new-logo.svg";
 import Resume from "../imgs/Sarah_DeMercurio_WebDev_Resume.pdf";
 import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Navbar = () => {
     return (
 
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
                 <NavLink to="/" exact activeClassName="active">
                     <img className="logo" src={logo} alt="Sarah's logo" />

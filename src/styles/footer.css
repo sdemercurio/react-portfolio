@@ -9,15 +9,16 @@
   width: 100%;
   padding: 3px;
   text-align: center;
-  border-top: solid black;
   align-content: center;
   align-items: center;
-  background-color: rgb(43, 202, 226);
+  background: rgb(33, 45, 82);
   height: 110px;
   }
   
-  .footer a {
-    color: black;
+  .footer a,p {
+    color: rgb(52, 252, 175);
+    padding: 5px;
+    font-size: 16px;
   }
   
   .footer a:hover {
@@ -40,4 +41,47 @@
   
   .socials:hover {
     color: white !important;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .footer {
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: absolute;
+      width: 100%;
+      padding: 3px;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+      background: rgb(33, 45, 82);
+      height: 110px;
+      }
+      
+      .footer a,p {
+        color: rgb(52, 252, 175);
+        padding: 5px;
+      }
+      
+      .footer a:hover {
+        color: white;
+      }
+      
+      .createdBy {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        display: inline-block;
+        margin-right: 5rem;
+        margin-left: 10%;
+      }
+      
+      .socials {
+        display: inline-block;
+        font-size: 40px;
+        
+      }
+      
+      .socials:hover {
+        color: white !important;
+      }
   }

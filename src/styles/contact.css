@@ -1,10 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import "../index.css";
 
+body {
+  background: rgb(33, 45, 82);
+}
+
 .contact-body {
-  padding: 10% 25%;
+  padding: 5% 10%;
   align-content: center;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -14,30 +26,33 @@
   font-size: 16px;
   width: 100%;
   line-height: 20px;
-  text-align: center;
-
+  text-align: left;
+  color: rgb(173, 181, 224);
 }
 
 .btn {
   font-family: "Quicksand", sans-serif;
-  border: solid rgb(43, 202, 226);
-  color: rgb(43, 202, 226);
-  border-radius: 10px;
+  border: solid rgb(52, 252, 175);
+  color: rgb(52, 252, 175);
+  border-radius: 5px;
   padding: 0.25rem;
   text-align: center;
   font-size: 18px !important;
   width: 100px;
-  box-shadow: 5px 5px 5px rgb(156, 156, 156);
-  position: relative;
-  left: 20%;
 
 }
 
 @media (min-width: 600px) {
     .contact-body {
-        padding: 10% 25%;
         align-content: center;
         display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contact-info {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
       }
@@ -53,16 +68,52 @@
       
       .btn {
         font-family: "Quicksand", sans-serif;
-        border: solid rgb(43, 202, 226);
-        color: rgb(43, 202, 226);
-        border-radius: 10px;
+        border: solid rgb(52, 252, 175);
+        color: rgb(52, 252, 175);
+        border-radius: 5px;
         padding: 0.25rem;
         text-align: center;
         font-size: 18px !important;
         width: 100px;
-        box-shadow: 5px 5px 5px rgb(156, 156, 156);
-        position: relative;
-        left: 40%;
       
       }
+}
+
+@media (min-width: 992px) {
+  .contact-body {
+      
+      align-content: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .contact-info p {
+      font-family: "Quicksand", sans-serif;
+      font-size: 18px;
+      width: 75%;
+      line-height: 25px;
+      text-align: left;
+    
+    }
+    
+    .btn {
+      font-family: "Quicksand", sans-serif;
+      border: solid rgb(52, 252, 175);
+      color: rgb(52, 252, 175) !important;
+      border-radius: 5px;
+      padding: 0.25rem;
+      text-align: center;
+      font-size: 18px !important;
+      width: 100px;
+
+    
+    }
 }

@@ -1,4 +1,6 @@
-
+#root {
+  background: rgb(33, 45, 82);
+}
 
 .PortfolioPage {
   position: relative;
@@ -13,8 +15,7 @@
   height: 100%;
   object-fit: contain;
   filter: saturate(0);
-  box-shadow: 5px 5px 5px rgb(119, 119, 120);
-  border: solid rgb(43, 202, 226);
+  border: solid rgb(52, 252, 175);
   border-width: 2px;
 }
 
@@ -22,9 +23,15 @@ img:hover {
   filter: saturate(90%);
 }
 
+.hover-items > li > a {
+  
+  margin-left: 0;
+}
+
 .hover-items {
   list-style: none;
   margin-top: 15px;
+  padding-left: 0;
 }
 
 a {
@@ -34,10 +41,10 @@ a {
 
 .techs {
   font-family: "Quicksand", sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   float: right;
-  color: rgb(43, 202, 226);
+  color: rgb(52, 252, 175);
   
 }
 
@@ -47,14 +54,16 @@ a:hover {
 
 .portfolio h5 {
   font-family: "Quicksand", sans-serif;
-  font-size: 2.25rem;
+  font-size: 22px;
   box-shadow: rgb(43, 202, 226);
   margin-top: 3rem;
+  color: rgb(173, 181, 224);
 }
 
 .portfolio p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
+  color: rgb(173, 181, 224);
 }
 
 hr {
@@ -101,12 +110,11 @@ hr {
     font-size: 12px;
     font-weight: bold;
     float: right;
-    color: rgb(43, 202, 226);
   
   }
 
   a:hover {
-    color: rgb(43, 202, 226) !important;
+    color: rgb(52, 252, 175) !important;
   }
 
   .portfolio h5 {
@@ -114,6 +122,7 @@ hr {
     font-size: 2.25rem;
     box-shadow: rgb(43, 202, 226);
     margin-top: 5rem;
+    color: rgb(173, 181, 224);
   }
 
   .portfolio p {
@@ -132,10 +141,11 @@ hr {
   .PortfolioPage {
     max-width: 100%;
     position: relative;
+    background: rgb(33, 45, 82);
   }
 
   .projects-container {
-    margin: 5% 10%;
+    margin: 0 10%;
     position: relative;
     height: 120%;
   }
@@ -177,12 +187,11 @@ hr {
     font-size: 16px;
     font-weight: bold;
     float: right;
-    color: rgb(43, 202, 226);
   
   }
 
   a:hover {
-    color: rgb(43, 202, 226) !important;
+    color: rgb(52, 252, 175) !important;
   }
 
   .portfolio h5 {
