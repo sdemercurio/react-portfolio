@@ -125,6 +125,8 @@ margin: 0 auto;
  }
  
  .portrait {
+   height:auto;
+   width: 25%;
    margin-bottom: 40px;
  }
  
